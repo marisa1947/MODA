@@ -1,4 +1,15 @@
-h1 {font-style: italic;
-    font-style: oblique;
-    font-size: 40px
-} 
+ 
+body {
+    background-color: bisque;
+}
+#titulo{ 
+    font-style: italic;
+}
+.imagenes{
+    width: 200px;
+    height: 200px;
+}
+#hola{
+    font-size: 60px;
+    font-style: initial;
+}

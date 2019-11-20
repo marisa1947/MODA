@@ -1,28 +1,31 @@
 <form action="/my-handling-form-page" method="post">
+    <head>
     <body>
-        <h1 style="color:MediumSeaGreen;">DECIDE TU OUTFIT</h1>
+            <link rel="stylesheet" href="style.css">
+            <body style="background-color: bisque">
+        <h1 id="hola" style="color:MediumSeaGreen;">DECIDE TU OUTFIT</h1>
     </body>
     
-    <p>Nombre:<br></p>
+    <p id="titulo">Nombre:<br></p>
         <input type="text" name="Nombre"><br>
-        <p></p>Apellido:<br></p>
+        <p id="titulo">Apellido:<br></p>
         <input type="text" name="Apellido">
       
     <div>
-            <p> <label for="mail">E-mail:</label></p>
+            <p id="titulo"> <label for="mail">E-mail:</label></p>
         <input type="email" id="mail" />
     </div>
     
-        <p><label for="mail">Género:</label></p>
+        <p id="titulo"><label for="mail">Género:</label></p>
         <input type="radio" name="gender" value="male" checked>Hombre<br>
         <input type="radio" name="gender" value="female">Mujer<br>
          
          
-        <p> Prenda Favorita:</p>
+        <p id="titulo"> Prenda Favorita:</p>
                 <input type="ropa" name="Prendas">
               
     <div>
-            <p><label for="msg">Comentario:</label></p>
+            <p id="titulo"><label for="msg">Comentario:</label></p>
         <textarea id="msg"></textarea>
     </div>
     <form action="/action_page.php">
@@ -33,3 +36,4 @@
         <button type="submit">Enviar</button>
     </div>
 </form>
+</head>
