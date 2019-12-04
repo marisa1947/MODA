@@ -1,27 +1,59 @@
- 
+*{
+    margin:auto
+}
 body {
     background-color: bisque;
+    text-align: center
 }
 #titulo{ 
     font-style: italic;
+    text-align: center;
+    margin: 20px;
+    border: 2px solid burlywood;
+    padding: 20px;
+    
 }
 .imagenes{
     width: 200px;
     height: 200px;
+    margin-top: 20px;
+    display: block;
 }
 #hola{
     font-size: 60px;
     font-style: initial;
+    background-color: rgb(243, 208, 156);
+    padding: 20px;
+
 }
 a:hover{ 
     color: rgb(185, 110, 255) ;
 font-size: 20px;
 font-style: oblique ;
 }
+a{
+    display: inline;
+    text-align: center;
+}
+
 img:hover{
-width: 320px;
-height: 320px;
+width: 220px;
+height: 220px;
+
 }
 h1{
     text-align: center;
+}
+
+.hiper{
+    display: inline;
+    margin: auto;
+    text-align: center
+}
+ul{
+    text-align: center
+}
+
+table{
+    margin-top: 30px
 }
