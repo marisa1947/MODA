@@ -26,7 +26,7 @@ body {
     transform:rotateZ(10deg)  scale(1.2) scaleX(1.1);
     filter: blur(2px) grayscale(100%);
     transition-delay: 2s;
-    
+
 }
 #hola{
     font-size: 60px;
@@ -85,10 +85,43 @@ table{
     right: 40,;
 
 }
-magenes:hover{
-    transition-duration: 2s;
-    transition-timing-function: linear;
-    transform:rotateZ(10deg)  scale(1.2);
-    filter: blur(1px) grayscale(100%);
-    transition-delay: 2s;
+#titulo{
+animation-name: mianimacion;
+animation-duration: 2000ms;
+animation-delay: 0.5s;
+animation-timing-function: linear;
+animation-iteration-count:  infinite;
+animation-direction: alternate;
 }
+@keyframes mianimacion{
+     0%{
+transform: scale(.95,.95)
+     }
+     50%{
+         transform:rotateY(45deg) 
+     }
+     100%{
+         transform: translate(-5px,5px);
+         filter: contrast(200%)
+     }
+    }
+    #hola{
+animation-name: animacion2;
+animation-duration: 4s;
+animation-delay: 0.5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: normal;
+    }
+    @keyframes animacion2{
+        0%{
+transform: scale(.95,.95)
+        }
+        50%{
+transform: rotateX(200deg)
+        }
+        100%{
+transform: translate(-10px,-10px);
+filter: saturate(40%)
+        }
+    }
